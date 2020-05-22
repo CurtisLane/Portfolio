@@ -17,7 +17,7 @@ html, body {
 
 /* ----- Style by Class ----- */
 
-.parallax-one, .parallax-two, .parallax-three {
+.parallax-one, .parallax-two, .parallax-three, .parallax-four {
 
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
@@ -45,7 +45,7 @@ html, body {
 
 .parallax-four {
     height: 100%;
-    background-color: #0e1111;}
+    background-image: url(../images/wood-tree-nature-landscape-forest-autumn-green-mood-moss.jpg);}
 
 /* ----- Style by Id ----- */
 
