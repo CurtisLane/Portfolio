@@ -1,69 +1,68 @@
-body {
-    margin: 0;
-    padding: 0;
+/* ----- Downloaded font from https://www.downloadfonts.io/calibri-font-family-free/ -----*/
+
+@font-face {
+    font-family: calibri;
+    src: url(../font/CalibriRegular.ttf);
 }
 
-section {
+/* ----- Style by Element ----- */
+
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
     width: 100%;
-    height: 100vh;
+    font-family: calibri;
+}
+
+/* ----- Style by Class ----- */
+
+.parallax-one, .parallax-two, .parallax-three {
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 2px solid transparent;
+}
+
+.parallax-one {
+    background-image: url('../images/wood-tree-forest-pine-forest-conifers-pine-fog-nature.jpg');
+    height: 30%;
+}
+
+.parallax-two {
+    background-image: url('../images/wood-tree-forest-pine-forest-conifers-pine-fog-nature.jpg');
+    height: 40%;
+}
+
+.parallax-three {
+    height: 100%;
+    /* The image used */
+    background-image: url('../images/forest-trees-sunbeam-autumn-landscape-nature-sunlight-log-morgenstimmung.jpg');
+}
+
+.parallax-four {
+    height: 100%;
+    background-color: #0e1111;}
+
+/* ----- Style by Id ----- */
+
+#titleSection {
+    width: 100%;
+    height: 40vh;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-div {
-    box-shadow: 0 5px 5px rgba(0, 0, 0, .5);
-}
-
-section h1, section h3 {
+#titleSection h1, #titleSection h3, #titleSection p {
+    text-shadow: 2px 4px 8px rgba(0, 0, 0, .5);
     margin: 0;
-    padding: 0;
-    text-align: center;
-    font-family: sans-serif;
-    color: #262626;
-    background: #fff;
-    padding: 10px;
-    text-shadow: 0 2px 5px rgba(0, 0, 0, .5);
+    color: #ffffff;
 }
 
-section:nth-child(1)
-{
-    background: #74b9ff;;
+#titleSection p {
+    margin-top: 8px;
 }
-section:nth-child(2)
-{
-    background: #6c5ce7;;
-}
-section:nth-child(3)
-{
-    background: #ff7675;;
-}
-section:nth-child(4)
-{
-    background: #fd79a8;;
-}
-section:nth-child(5)
-{
-    background: #ffeaa7;;
-}
-section:nth-child(6)
-{
-    background: #6c5ce7;;
-}
-section:nth-child(7)
-{
-    background: #ff7675;;
-}
-section:nth-child(8)
-{
-    background: #fd79a8;;
-}
-
-/* scroll trigger */
-.visible, .invisible {
-    opacity: 0.0;
-    transition: opacity 0.5s ease;
-  }
-  .visible {
-    opacity: 1.0;
-  }
