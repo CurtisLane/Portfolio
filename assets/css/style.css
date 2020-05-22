@@ -1,0 +1,68 @@
+/* ----- Downloaded font from https://www.downloadfonts.io/calibri-font-family-free/ -----*/
+
+@font-face {
+    font-family: calibri;
+    src: url(../font/CalibriRegular.ttf);
+}
+
+/* ----- Style by Element ----- */
+
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    font-family: calibri;
+}
+
+/* ----- Style by Class ----- */
+
+.parallax-one, .parallax-two, .parallax-three {
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 2px solid transparent;
+}
+
+.parallax-one {
+    background-image: url('../images/wood-tree-forest-pine-forest-conifers-pine-fog-nature.jpg');
+    height: 30%;
+}
+
+.parallax-two {
+    background-image: url('../images/wood-tree-forest-pine-forest-conifers-pine-fog-nature.jpg');
+    height: 40%;
+}
+
+.parallax-three {
+    height: 100%;
+    /* The image used */
+    background-image: url('../images/forest-trees-sunbeam-autumn-landscape-nature-sunlight-log-morgenstimmung.jpg');
+}
+
+.parallax-four {
+    height: 100%;
+    background-color: #0e1111;}
+
+/* ----- Style by Id ----- */
+
+#titleSection {
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#titleSection h1, #titleSection h3, #titleSection p {
+    text-shadow: 2px 4px 8px rgba(0, 0, 0, .5);
+    margin: 0;
+    color: #ffffff;
+}
+
+#titleSection p {
+    margin-top: 8px;
+}
