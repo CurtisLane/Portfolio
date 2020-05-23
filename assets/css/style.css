@@ -5,6 +5,7 @@
     src: url(../font/CalibriRegular.ttf);
 }
 
+
 /* ----- Style by Element ----- */
 
 html, body {
@@ -15,11 +16,13 @@ html, body {
     font-family: calibri;
 }
 
+
 /* ----- Style by Class ----- */
 
-.parallax-one, .parallax-two, .parallax-three {
+/* ----- Create the parallax scrolling effect ----- */
 
-    /* Create the parallax scrolling effect */
+.parallax-one, .parallax-two, .parallax-three, .parallax-four {
+
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -39,13 +42,13 @@ html, body {
 
 .parallax-three {
     height: 100%;
-    /* The image used */
     background-image: url('../images/forest-trees-sunbeam-autumn-landscape-nature-sunlight-log-morgenstimmung.jpg');
 }
 
 .parallax-four {
     height: 100%;
-    background-color: #0e1111;}
+    background-image: url(../images/wood-tree-nature-landscape-forest-autumn-green-mood-moss.jpg);}
+
 
 /* ----- Style by Id ----- */
 
