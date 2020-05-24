@@ -11,11 +11,14 @@
     <!--Import Google Icon Font for Materialize-->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     
+    <!-- reset.css -->
+    <link rel="stylesheet" href="assets/css/reset.css">
+    
     <!--Import materialize.css-->
     <link type="text/css" rel="stylesheet" href="assets/css/materialize.css"  media="screen,projection"/>
 
     <!-- Link animate on scroll(aos) -->
-    <link rel="stylesheet" href="bower_components/aos/dist/aos.css" />
+    <!-- <link rel="stylesheet" href="bower_components/aos/dist/aos.css" /> -->
     <link rel="stylesheet" href="assets/aos-2/dist/aos.css">
 
     <!-- Link local stylesheet -->
@@ -27,35 +30,31 @@
 
     <title>Curtis Lane Portfolio</title>
 </head>
-<body>
+<body>   
 
-    <div class="parallax-one">
-                 
-    </div>
+    <section data-aos="zoom-out" class="parallax-one white-text" id="titleSection">
+        <div class="center-align">
+            <h1 data-aos="zoom-in">Curtis Lane</h1>
+            <h3 data-aos="zoom-in" data-aos-delay="500">Web Developer</h3>
+            <p data-aos="zoom-in" data-aos-delay="1000"><a href="#aboutSection" class="white-text">About</a> | <a href="#"class="white-text">Portfolio</a> | <a href="#"class="white-text">Contace</a></p>
+        </div>
+    </section>
 
-        <section class="parallax-two" id="titleSection">
-            <div data-aos="zoom-in" class="center-align">
-                <h1 class="">Curtis Lane</h1>
-                <h3 class="">Web Developer</h3>
-                <p>About | Portfolio | Contact</p>
-            </div>
-        </section>
-
-    <div class="parallax-two"></div>
-
-    <section class="" id="aboutSection">
-        <div class="">
-            <div class="center-align">
-                <h1 data-aos="fade-left" class="">Curtis Lane</h1>
-                <h3 data-aos="fade-left" data-aos-delay="750" class="">Web Developer</h3>
-                <p data-aos="fade-left" data-aos-delay="1500">About | Portfolio | Contact</p>
-            </div>
+    <section class="white-text" id="aboutSection">
+        <div class="container left-align">
+            <div class="left" id="profileImageDiv">
+                <img class="responsive-img" data-aos="fade-left" src="assets/images/ThisOneFB.JPG" alt="Profile Photo" id="profilePhoto">
+            </div>  
+            <h1 data-aos="fade-left" data-aos-delay="500" class="">About</h1>
+            <p data-aos="fade-left" data-aos-delay="1000">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec.</p>
+            <p data-aos="fade-left" data-aos-delay="1500">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec.</p>
         </div>
     </section>
     
-    <div class="parallax-three"></div>
+    <div class="parallax-two"></div>
 
-    <section class="" id="portfolioSection">
+
+    <!-- <section class="" id="portfolioSection">
         <div class="">
             <div data-aos="zoom-in" class="center-align">
                 <h1 class="">Curtis Lane</h1>
@@ -64,56 +63,27 @@
                 <p>About | Portfolio | Contact</p>
             </div>
         </div>
-    </section>
+    </section> -->
 
-    <div class="parallax-four"></div>
+    <!-- <div class="parallax-two"></div> -->
 
-    <section>
+    <!-- <section>
         <div data-aos="fade-down" class="section-div">
             <h1>Curtis Lane</h1>
             <h3>Full Stack Web Developer</h3>
         </div>
-    </section>
+    </section> -->
 
-    <div class="parallax-three"></div>
+    <!-- <div class="parallax-one"></div> -->
 
-    <section>
-        <div data-aos="fade-up-right" class="section-div">
+    <!-- <section>
+        <div data-aos="fade-up" class="section-div">
             <h1>Curtis Lane</h1>
             <h3>Full Stack Web Developer</h3>
         </div>
-    </section>
+    </section> -->
 
-    <div class="parallax-four"></div>
-    
-    <section>
-        <div data-aos="fade-up-left" class="section-div">
-            <h1>Curtis Lane</h1>
-            <h3>Full Stack Web Developer</h3>
-        </div>
-    </section>
-
-    <div class="parallax-three"></div>
-
-    <section>
-        <div data-aos="fade-down-right" class="section-div">
-            <h1>Curtis Lane</h1>
-            <h3>Full Stack Web Developer</h3>
-        </div>
-    </section>
-    
-    <div class="parallax-two"></div>
-
-    <section class="parallax-two white-text">
-        <div data-aos="fade-down-left" class="section-div">
-            <h1>Curtis Lane</h1>
-            <h3>Full Stack Web Developer</h3>
-        </div>
-    </section>
-
-    <div class="parallax-one"></div>
-
-
+   
     <!-- Materialize js -->
     <script type="text/javascript" src="assets/javascript/materialize.js"></script>
 
@@ -122,7 +92,7 @@
     
     <!-- animate on scroll aos.js-->
     <script type="text/javascript" src="assets/aos-2/dist/aos.js"></script>
-    <script src="bower_components/aos/dist/aos.js"></script>
+    <!-- <script src="bower_components/aos/dist/aos.js"></script> -->
     <script>
         AOS.init({
             duration: 2000,
