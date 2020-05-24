@@ -14,47 +14,59 @@ html, body {
     height: 100%;
     width: 100%;
     font-family: calibri;
+    background: #182c25;
 }
 
+body {
+    overflow-x: hidden;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    padding: 0;
+    letter-spacing: 2px;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+    letter-spacing: 1px;
+    font-size: 1.25rem;
+}
 
 /* ----- Style by Class ----- */
 
 /* ----- Create the parallax scrolling effect ----- */
 
-.parallax-one, .parallax-two, .parallax-three, .parallax-four {
+.parallax-one, .parallax-two, .parallax-three{
 
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    border: 2px solid transparent;
 }
 
 .parallax-one {
     background-image: url('../images/wood-tree-forest-pine-forest-conifers-pine-fog-nature.jpg');
-    height: 30%;
+    height: 100%;
+    width: 100%;
 }
 
 .parallax-two {
     background-image: url('../images/wood-tree-forest-pine-forest-conifers-pine-fog-nature.jpg');
-    height: 40%;
+    height: 64%;
+    width: 100%;
 }
 
 .parallax-three {
-    height: 100%;
-    background-image: url('../images/forest-trees-sunbeam-autumn-landscape-nature-sunlight-log-morgenstimmung.jpg');
+    background-image: url('../images/wood-tree-nature-landscape-forest-autumn-green-mood-moss.jpg');
 }
-
-.parallax-four {
-    height: 100%;
-    background-image: url(../images/wood-tree-nature-landscape-forest-autumn-green-mood-moss.jpg);}
 
 
 /* ----- Style by Id ----- */
 
 #titleSection {
     width: 100%;
-    height: 40vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -62,10 +74,33 @@ html, body {
 
 #titleSection h1, #titleSection h3, #titleSection p {
     text-shadow: 2px 4px 8px rgba(0, 0, 0, .5);
-    margin: 0;
-    color: #ffffff;
 }
 
 #titleSection p {
-    margin-top: 8px;
+    margin-top: 32px;
+}
+
+#aboutSection {
+    background: #182c25;
+    padding: 1rem;
+    min-height: 40vh;
+    line-height: 200%;
+    text-shadow: 2px 4px 8px rgba(0, 0, 0, .5);
+}
+
+#aboutSection:focus {
+    outline:0 !important;
+}
+
+
+#aboutSection p {
+    margin-top: 16px;
+    text-indent: 5%;
+    word-wrap: break-word;
+}
+
+#profileImageDiv {
+    width: 25%;
+    margin: 8px 16px 8px 8px;
+    max-height: 33.3vh;
 }
