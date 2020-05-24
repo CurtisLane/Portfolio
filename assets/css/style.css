@@ -14,7 +14,7 @@ html, body {
     height: 100%;
     width: 100%;
     font-family: calibri;
-    background: #305d35;
+    background: #182c25;
 
 }
 
@@ -179,6 +179,14 @@ a:hover {
     height: 0;
     padding: 50% 0;
     border-radius: 50%;
+}
+
+#contactSection {
+    padding: 1rem;
+}
+
+#contactForm {
+    margin-top: 3rem;
 }
 
 /* ----- Media queries ----- */
