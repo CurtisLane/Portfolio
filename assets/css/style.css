@@ -15,7 +15,6 @@ html, body {
     width: 100%;
     font-family: calibri;
     background: #182c25;
-
 }
 
 body {
@@ -49,6 +48,10 @@ hr {
     border: 0;
     height: 1.25px;
     background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(255,255,255, 0.9), rgba(0, 0, 0, 0));
+}
+
+input, textarea {
+    color: #ffffff;
 }
 /* ----- Style by Class ----- */
 
@@ -183,6 +186,10 @@ a:hover {
 
 #contactSection {
     padding: 1rem;
+}
+
+#contactSection:focus {
+    outline: none;
 }
 
 #contactForm {
