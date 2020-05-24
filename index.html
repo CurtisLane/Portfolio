@@ -36,7 +36,7 @@
         <div class="center-align">
             <h1 data-aos="zoom-in">Curtis Lane</h1>
             <h3 data-aos="zoom-in" data-aos-delay="500">Web Developer</h3>
-            <p data-aos="zoom-in" data-aos-delay="1000"><a href="#aboutSection" class="white-text">About</a> | <a href="#portfolioSection"class="white-text">Portfolio</a> | <a href="#"class="white-text">Contact</a></p>
+            <p data-aos="zoom-in" data-aos-delay="1000"><a href="#aboutSection" class="white-text">About</a> | <a href="#portfolioSection"class="white-text">Portfolio</a> | <a href="#contactSection"class="white-text">Contact</a></p>
         </div>
     </section>
 
@@ -52,13 +52,14 @@
         </div>
     </section>
     
-    <div data-aos="zoom-out" class="parallax-two"></div>
+    <div class="parallax-two"></div>
 
     <section class="white-text center-align" id="portfolioSection">
         <div class="container">
             <h1 data-aos="fade-left" class="center-align">Projects</h1>
+            <hr data-aos="fade-left" data-aos-delay="500">
             <div id="portfolioImagesDiv" class="row">
-                <div data-aos="fade-left" data-aos-delay="500" class="portfolioImageDiv">
+                <div data-aos="fade-left" data-aos-delay="750" class="portfolioImageDiv">
                     <div id="imageOneDiv">
                         <a href="https://curtislane.github.io/Dinner-and-a-Movie/" target="_blank">
                             <div id="portfolioImageOne" class=".z-depth-2"></div>
@@ -85,12 +86,42 @@
             </div>
         </div>
         <div id="showMore">
-            
+
         </div>
     </section>
 
     <div class="parallax-two"></div>
 
+    <section class="white-text" id="contactSection">
+        <div class="container">
+            <h1 data-aos="fade-left" class="center-align">Contact</h1>
+            <hr data-aos="fade-left" data-aos-delay="500">
+            <div data-aos="zoom-in" data-aos-delay="1000" class="row" id="contactForm">
+                <form class="col s12">
+                  <div class="row">
+                    <div class="input-field col s6">
+                      <input id="name" type="text" class="validate">
+                      <label for="name">Name</label>
+                    </div>
+                  <!-- </div>
+                  <div class="row"> -->
+                    <div class="input-field col s6">
+                      <input id="email" type="email" class="validate">
+                      <label for="email">Email</label>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="input-field col s12">
+                      <textarea id="message" class="materialize-textarea"></textarea>
+                      <label for="message">Message</label>
+                    </div>
+                  </div>
+                  <button class="btn waves-effect waves-light" type="submit" name="action">Submit
+                    <i class="material-icons right">send</i>
+                  </button>
+                </form>
+              </div>
+    </section>
    
     <!-- Materialize js -->
     <script type="text/javascript" src="assets/javascript/materialize.js"></script>
