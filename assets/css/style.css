@@ -53,8 +53,8 @@ p {
 }
 
 .parallax-two {
-    background-image: url('../images/wood-tree-forest-pine-forest-conifers-pine-fog-nature.jpg');
-    height: 64%;
+    background-image: url('../images/forest-2033331_960_720.jpg');
+    height: 80%;
     width: 100%;
 }
 
@@ -80,8 +80,12 @@ p {
     margin-top: 32px;
 }
 
+#titleSection a:hover {
+    opacity: .6;
+    font-size: 90%;
+}
+
 #aboutSection {
-    background: #182c25;
     padding: 1rem;
     min-height: 40vh;
     line-height: 200%;
@@ -95,7 +99,7 @@ p {
 
 #aboutSection p {
     margin-top: 16px;
-    text-indent: 5%;
+    /* text-indent: 5%; */
     word-wrap: break-word;
 }
 
