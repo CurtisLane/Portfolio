@@ -41,6 +41,10 @@ p {
     width: 30%;
 }
 
+.description {
+    margin-top: 1rem;
+}
+
 /* ----- Create the parallax scrolling effect ----- */
 
 .parallax-one, .parallax-two, .parallax-three{
