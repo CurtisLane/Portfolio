@@ -25,6 +25,8 @@ h1, h2, h3, h4, h5, h6 {
     margin: 0;
     padding: 0;
     letter-spacing: 2px;
+    text-shadow: 2px 4px 8px rgba(0, 0, 0, .5);
+
 }
 
 p {
@@ -32,13 +34,25 @@ p {
     padding: 0;
     letter-spacing: 1px;
     font-size: 1.25rem;
+    text-shadow: 2px 4px 8px rgba(0, 0, 0, .5);
+
 }
+
 
 /* ----- Style by Class ----- */
 
 .portfolioImageDiv {
     margin: 1rem;
     width: 30%;
+}
+
+.portfolioImageDiv a {
+    color: #ffffff;
+}
+
+a:hover {
+    font-size: 110%;
+    opacity: .6;
 }
 
 .description {
@@ -104,7 +118,6 @@ p {
 
 #aboutSection p {
     margin-top: 16px;
-    /* text-indent: 5%; */
     word-wrap: break-word;
 }
 
@@ -125,7 +138,7 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 4rem;
+    margin-top: 5rem;
 }
 
 #portfolioImageOne {
@@ -136,6 +149,14 @@ p {
     padding: 50% 0;
     border-radius: 50%;
 }
+
+#imageOneDiv:hover, #imageTwoDiv:hover, #imageThreeDiv:hover {
+    width: 110%;
+    margin-bottom: -1em;
+    filter: brightness(125%);
+
+}
+
 #portfolioImageTwo {
     background: url('../images/gifTastic.jpg') 50% 50% no-repeat; /* 50% 50% centers image in div */
     background-size: cover;
@@ -144,6 +165,7 @@ p {
     padding: 50% 0;
     border-radius: 50%;
 }
+
 #portfolioImageThree {
     background: url('../images/triviaGame.jpg') 50% 50% no-repeat; /* 50% 50% centers image in div */
     background-size: cover;
