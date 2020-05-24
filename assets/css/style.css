@@ -189,7 +189,7 @@ a:hover {
 }
 
 #contactSection:focus {
-    outline: none;
+    outline: none !important;
 }
 
 #contactForm {
