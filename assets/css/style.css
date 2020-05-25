@@ -140,6 +140,10 @@ a:hover {
     max-height: 33.3vh;
 }
 
+#profilePhoto {
+    border-radius: 50%;
+}
+
 #portfolioSection {
     padding: 2rem;
     width: 100%;
