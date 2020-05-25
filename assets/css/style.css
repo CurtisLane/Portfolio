@@ -44,6 +44,7 @@ p {
 hr {
     width: 60%;
     margin-top: 3rem;
+    margin-bottom: 3rem;
     box-shadow: 2px 4px 8px rgba(0, 0, 0, .5);
     border: 0;
     height: 1.25px;
@@ -73,6 +74,10 @@ a:hover {
     margin-top: 1rem;
 }
 
+.contact {
+    font-size: .5rem;
+}
+
 /* ----- Create the parallax scrolling effect ----- */
 
 .parallax-one, .parallax-two, .parallax-three{
@@ -98,7 +103,6 @@ a:hover {
 .parallax-three {
     background-image: url('../images/wood-tree-nature-landscape-forest-autumn-green-mood-moss.jpg');
 }
-
 
 /* ----- Style by Id ----- */
 
@@ -194,6 +198,10 @@ a:hover {
 
 #contactForm {
     margin-top: 3rem;
+}
+
+#linkdinLogo {
+    width: 50%;
 }
 
 /* ----- Media queries ----- */
