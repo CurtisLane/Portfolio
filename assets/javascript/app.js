@@ -1,5 +1,11 @@
 $(document).ready(function(){
 
+    var iOS = navigator.platform && /iPad|iPhone|iPod/.test(navigator.platform); // Detect if user is on Apple ios
+
+    if (iOS) {
+        $('.parallax-one', '.parallax-two', '.parallax-three').css('background-attachment', 'scroll')
+    }
+
     // Smooth scrolling effect copied from https://css-tricks.com/snippets/jquery/smooth-scrolling/
     
     // Select all links with hashes
