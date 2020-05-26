@@ -52,9 +52,14 @@ hr {
     background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(255,255,255, 0.9), rgba(0, 0, 0, 0));
 }
 
+form {
+    margin-bottom: 32px;
+}
+
 input, textarea {
     color: #ffffff;
 }
+
 /* ----- Style by Class ----- */
 
 .portfolioImageDiv {
@@ -64,11 +69,6 @@ input, textarea {
 
 .portfolioImageDiv a {
     color: #ffffff;
-}
-
-a:hover {
-    font-size: 110%;
-    opacity: .6;
 }
 
 .description {
@@ -89,8 +89,10 @@ a:hover {
     background-size: cover;
 }
 
+/* Images downloaded from pexels.com */
+
 .parallax-one {
-    background-image: url('../images/wood-tree-forest-pine-forest-conifers-pine-fog-nature.jpg');
+    background-image: url('../images/Portfolio_images/mountainPath.jpeg');
     height: 100%;
     width: 100%;
 }
@@ -102,7 +104,7 @@ a:hover {
 }
 
 .parallax-three {
-    background-image: url('../images/Portfolio_images/mountainView.jpeg');
+    background-image: url('../images/wood-tree-forest-pine-forest-conifers-pine-fog-nature.jpg');
     height: 100%;
     width: 100%;
 }
@@ -114,15 +116,16 @@ a:hover {
     display: flex;
     align-items: center;
     justify-content: center;
+    outline:0 !important;
 }
 
-#titleSection p {
+.linksP {
     margin-top: 32px;
 }
 
-#titleSection a:hover {
+a.link:hover {
     opacity: .6;
-    font-size: 90%;
+
 }
 
 #aboutSection {
@@ -148,7 +151,7 @@ a:hover {
 }
 
 #portfolioSection {
-    padding: 1rem;
+    padding: 2rem;
     width: 100%;
     outline:0 !important;
 }
