@@ -15,6 +15,7 @@ html, body {
     width: 100%;
     font-family: calibri;
     background: #182c25;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -51,9 +52,14 @@ hr {
     background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(255,255,255, 0.9), rgba(0, 0, 0, 0));
 }
 
+form {
+    margin-bottom: 32px;
+}
+
 input, textarea {
     color: #ffffff;
 }
+
 /* ----- Style by Class ----- */
 
 .portfolioImageDiv {
@@ -63,11 +69,6 @@ input, textarea {
 
 .portfolioImageDiv a {
     color: #ffffff;
-}
-
-a:hover {
-    font-size: 110%;
-    opacity: .6;
 }
 
 .description {
@@ -80,7 +81,7 @@ a:hover {
 
 /* ----- Create the parallax scrolling effect ----- */
 
-.parallax-one, .parallax-two, .parallax-three{
+.parallax-one, .parallax-two, .parallax-three {
 
     background-attachment: fixed;
     background-position: center;
@@ -88,20 +89,24 @@ a:hover {
     background-size: cover;
 }
 
+/* Images downloaded from pexels.com */
+
 .parallax-one {
-    background-image: url('../images/wood-tree-forest-pine-forest-conifers-pine-fog-nature.jpg');
+    background-image: url('../images/Portfolio_images/mountainPath.jpeg');
     height: 100%;
     width: 100%;
 }
 
 .parallax-two {
     background-image: url('../images/forest-2033331_960_720.jpg');
-    height: 80%;
+    height: 100%;
     width: 100%;
 }
 
 .parallax-three {
-    background-image: url('../images/wood-tree-nature-landscape-forest-autumn-green-mood-moss.jpg');
+    background-image: url('../images/wood-tree-forest-pine-forest-conifers-pine-fog-nature.jpg');
+    height: 100%;
+    width: 100%;
 }
 
 /* ----- Style by Id ----- */
@@ -111,19 +116,20 @@ a:hover {
     display: flex;
     align-items: center;
     justify-content: center;
+    outline:0 !important;
 }
 
-#titleSection p {
+.linksP {
     margin-top: 32px;
 }
 
-#titleSection a:hover {
+a.link:hover {
     opacity: .6;
-    font-size: 90%;
+
 }
 
 #aboutSection {
-    padding: 1rem;
+    padding: 2rem;
     min-height: 40vh;
     line-height: 200%;
     outline:0 !important;
@@ -138,6 +144,10 @@ a:hover {
     width: 25%;
     margin: 8px 16px 8px 8px;
     max-height: 33.3vh;
+}
+
+#profilePhoto {
+    border-radius: 50%;
 }
 
 #portfolioSection {
@@ -190,6 +200,7 @@ a:hover {
 
 #contactSection {
     padding: 1rem;
+    height: 100vh;
 }
 
 #contactSection:focus {
