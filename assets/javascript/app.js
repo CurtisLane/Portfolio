@@ -2,7 +2,7 @@ $(document).ready(function(){
 
     var iOS = navigator.platform && /iPad|iPhone|iPod/.test(navigator.platform); // Detect if user is on Apple ios
 
-    if (ios) {
+    if (iOS) {
         $('.parallax-one', '.parallax-two', '.parallax-three').css('background-attachment', 'scroll')
     }
 
