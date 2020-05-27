@@ -3,7 +3,8 @@ $(document).ready(function(){
     var iOS = navigator.platform && /iPad|iPhone|iPod/.test(navigator.platform); // Detect if user is on Apple ios
 
     if (iOS) {
-        $('.parallax-one', '.parallax-two', '.parallax-three').css('background-attachment', 'scroll')
+        $('.parallax-one', '.parallax-two', '.parallax-three').css('background-attachment', 'scroll !important')
+        $('.parallax-one', '.parallax-two', '.parallax-three').css('background-size', 'inherit !important')
     }
 
     // Smooth scrolling effect copied from https://css-tricks.com/snippets/jquery/smooth-scrolling/
