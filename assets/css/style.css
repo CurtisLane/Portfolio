@@ -134,7 +134,7 @@ a.link:hover {
 }
 
 #aboutSection {
-    padding: 2rem;
+    padding: 2rem 0;
     /* min-height: 40vh; */
     line-height: 200%;
     outline:0 !important;
@@ -156,7 +156,7 @@ a.link:hover {
 }
 
 #portfolioSection {
-    padding: 2rem;
+    padding: 2rem 0;
     width: 100%;
     outline:0 !important;
 }
@@ -204,21 +204,12 @@ a.link:hover {
 }
 
 #contactSection {
-    padding: 1rem;
+    padding: 3rem 0;
     min-height: 100vh;
 }
 
 #contactSection:focus {
     outline: none !important;
-}
-
-#linkdinLogo {
-    width: 20%;
-    padding-top: 2rem;
-}
-
-#linkdinLogoA:hover {
-    opacity: .6;
 }
 
 /* ----- Media queries ----- */
