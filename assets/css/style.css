@@ -61,7 +61,9 @@ input, textarea {
 }
 
 /* ----- Style by Class ----- */
-
+.container {
+    max-height: 100vh;
+}
 .portfolioImageDiv {
     margin: 1rem;
     width: 30%;
