@@ -31,7 +31,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 section {
-    background-image: linear-gradient(to bottom right, #182c25, #305d35);
+    background-image: linear-gradient(to bottom right, #1b1b1b, #6d6d6d);
 }
 
 p {
@@ -79,6 +79,10 @@ input, textarea {
     font-size: .5rem;
 }
 
+contactP {
+    word-wrap: break-word;
+}
+
 /* ----- Create the parallax scrolling effect ----- */
 
 .parallax-one, .parallax-two, .parallax-three {
@@ -92,20 +96,20 @@ input, textarea {
 /* Images downloaded from pexels.com */
 
 .parallax-one {
-    background-image: url('../images/Portfolio_images/mountainPath.jpeg');
-    height: 100%;
+    background-image: url('../images/HD_Backgrounds/rob-ritchey-Hkk_RdYxHO0-unsplash.jpg');
+    height: 100vh;
     width: 100%;
 }
 
 .parallax-two {
-    background-image: url('../images/forest-2033331_960_720.jpg');
-    height: 100%;
+    background-image: url('../images/HD_Backgrounds/luke-vodell-C7FXIG9DoaU-unsplash.jpg');
+    height: 100vh;
     width: 100%;
 }
 
 .parallax-three {
-    background-image: url('../images/wood-tree-forest-pine-forest-conifers-pine-fog-nature.jpg');
-    height: 100%;
+    background-image: url('../images/HD_Backgrounds/jonathan-auh-z99iWocuDt0-unsplash.jpg');
+    height: 100vh;
     width: 100%;
 }
 
@@ -212,7 +216,8 @@ a.link:hover {
 }
 
 #linkdinLogo {
-    width: 50%;
+    width: 20%;
+    padding-top: 2rem;
 }
 
 #linkdinLogoA:hover {
