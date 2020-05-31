@@ -82,10 +82,6 @@ input, textarea {
     margin-bottom: 2rem;
 }
 
-contactP {
-    word-wrap: break-word;
-}
-
 /* ----- Create the parallax scrolling effect ----- */
 
 .parallax-one, .parallax-two, .parallax-three {
