@@ -1,5 +1,21 @@
 $(document).ready(function(){
 
+
+    $('#additionalLinks').hide();
+    $('#seeLessButton').hide();
+    $(document).on('click', '#seeMoreButton', function(){
+        $('#additionalLinks').show();
+        $('#seeMoreButton').hide();
+        $('#seeLessButton').show();
+    })
+    $(document).on('click', '#seeLessButton', function(){
+        $('#additionalLinks').hide();
+        $('#seeMoreButton').show();
+        $('#seeLessButton').hide();
+    })
+
+
+
     // Smooth scrolling effect copied from https://css-tricks.com/snippets/jquery/smooth-scrolling/
     
     // Select all links with hashes

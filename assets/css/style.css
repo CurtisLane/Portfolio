@@ -81,6 +81,15 @@ input, textarea {
     margin-bottom: 2rem;
 }
 
+.linksP {
+    margin-top: 32px;
+}
+
+.seeMoreLinks {
+    margin: 1rem;
+    font-size: 1.5rem;
+}
+
 /* ----- Create the parallax scrolling effect ----- */
 
 .parallax-one, .parallax-two, .parallax-three {
@@ -121,13 +130,8 @@ input, textarea {
     outline:0 !important;
 }
 
-.linksP {
-    margin-top: 32px;
-}
-
 a.link:hover {
     opacity: .6;
-
 }
 
 #aboutSection {
@@ -153,7 +157,7 @@ a.link:hover {
 }
 
 #portfolioSection {
-    padding: 2rem 0;
+    padding: 2rem 0; 
     width: 100%;
     outline:0 !important;
 }
@@ -215,6 +219,9 @@ a.link:hover {
     .portfolioImageDiv {
         margin: 2rem;
         width: 15%;
+    }
+    #portfolioSection {
+        padding: 2rem 0 6rem 0;
     }
 }
 
