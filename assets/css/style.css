@@ -61,9 +61,7 @@ input, textarea {
 }
 
 /* ----- Style by Class ----- */
-/* .container {
-    max-height: 100vh;
-} */
+
 .portfolioImageDiv {
     margin: 1rem;
     width: 30%;
@@ -137,7 +135,6 @@ a.link:hover {
 
 #aboutSection {
     padding: 2rem 0;
-    /* min-height: 40vh; */
     line-height: 200%;
     outline:0 !important;
 }
