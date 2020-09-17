@@ -84,11 +84,6 @@ input, textarea {
     margin-top: 32px;
 }
 
-.seeMoreLinks {
-    margin: 1rem;
-    font-size: 1.5rem;
-}
-
 /* ----- Create the parallax scrolling effect ----- */
 
 .parallax-one, .parallax-two, .parallax-three {
@@ -170,7 +165,7 @@ a.link:hover {
 }
 
 #portfolioImageOne {
-    background: url('../images/dropletMobile.jpg') 50% 50% no-repeat; /* 50% 50% centers image in div */
+    background: url('../images/frontEndUi.PNG') 50% 50% no-repeat; /* 50% 50% centers image in div */
     background-size: cover;
     width: 100%;
     height: 0;
@@ -179,7 +174,7 @@ a.link:hover {
 }
 
 #portfolioImageTwo {
-    background: url('../images/Dinner-and-a-movie-image.jpg') 50% 50% no-repeat; /* 50% 50% centers image in div */
+    background: url('../images/dropletMobile.jpg') 50% 50% no-repeat; /* 50% 50% centers image in div */
     background-size: cover;
     width: 100%;
     height: 0;
@@ -188,7 +183,7 @@ a.link:hover {
 }
 
 #portfolioImageThree {
-    background: url('../images/triviaGame.jpg') 50% 50% no-repeat; /* 50% 50% centers image in div */
+    background: url('../images/Dinner-and-a-movie-image.jpg') 50% 50% no-repeat; /* 50% 50% centers image in div */
     background-size: cover;
     width: 100%;
     height: 0;
@@ -198,6 +193,15 @@ a.link:hover {
 }
 
 #portfolioImageFour {
+    background: url('../images/triviaGame.jpg') 50% 50% no-repeat; /* 50% 50% centers image in div */
+    background-size: cover;
+    width: 100%;
+    height: 0;
+    padding: 50% 0;
+    border-radius: 50%;
+}
+
+#portfolioImageFive {
     background: url('../images/friendFinderScreenShot.jpg') 50% 50% no-repeat; /* 50% 50% centers image in div */
     background-size: cover;
     width: 100%;
@@ -205,20 +209,10 @@ a.link:hover {
     padding: 50% 0;
     border-radius: 50%;
     filter: brightness(95%);
-
-}
-
-#portfolioImageFive {
-    background: url('../images/gifTastic.jpg') 50% 50% no-repeat; /* 50% 50% centers image in div */
-    background-size: cover;
-    width: 100%;
-    height: 0;
-    padding: 50% 0;
-    border-radius: 50%;
 }
 
 #portfolioImageSix {
-    background: url('../images/DBZgameScreenShot.jpg') 50% 50% no-repeat; /* 50% 50% centers image in div */
+    background: url('../images/gifTastic.jpg') 50% 50% no-repeat; /* 50% 50% centers image in div */
     background-size: cover;
     width: 100%;
     height: 0;

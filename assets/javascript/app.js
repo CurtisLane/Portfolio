@@ -10,19 +10,30 @@ $(document).ready(function(){
             <div id="portfolioImagesDiv" class="row">
                 <div data-aos="fade-left" data-aos-delay="300" class="portfolioImageDiv">
                     <div id="imageFourDiv">
-                        <a href="https://friend-finder064.herokuapp.com/" target="_blank">
+                        <a href="https://curtislane.github.io/TriviaGame/" target="_blank">
                             <div id="portfolioImageFour" class=".z-depth-2"></div>
-                            <p class="description">Friend Finder App</p>
+                            <p class="description">jQuery Trivia Game</p>
                         </a>
                         <div class="description">
-                            <a href="https://github.com/CurtisLane/Friend-Finder" class="link" target="_blank">Github</a>
+                            <a href="https://github.com/CurtisLane/TriviaGame" class="link" target="_blank">Github</a>
                         </div>
                     </div>
                 </div>
                 <div data-aos="fade-left" data-aos-delay="400" class="portfolioImageDiv">
                     <div id="imageFiveDiv">
-                        <a href="https://curtislane.github.io/GifTastic/" target="_blank">
+                        <a href="https://friend-finder064.herokuapp.com/" target="_blank">
                             <div id="portfolioImageFive" class=".z-depth-2"></div>
+                            <p class="description">Friend Finder App</p>
+                        </a>
+                        <div class="description">
+                            <a href="https://github.com/CurtisLane/Friend-Finder" class="link" target="_blank">Github</a>
+                        </div>                    
+                    </div>
+                </div>
+                <div data-aos="fade-left" data-aos-delay="500" class="portfolioImageDiv">
+                    <div id="imageSixDiv">
+                        <a href="https://curtislane.github.io/GifTastic/" target="_blank">
+                            <div id="portfolioImageSix" class=".z-depth-2"></div>
                             <p class="description">AJAX Gif Generator</p>
                         </a>
                         <div class="description">
@@ -30,27 +41,9 @@ $(document).ready(function(){
                         </div>                    
                     </div>
                 </div>
-                <div data-aos="fade-left" data-aos-delay="500" class="portfolioImageDiv">
-                    <div id="imageSixDiv">
-                        <a href="https://curtislane.github.io/Word-Guess-Game/" target="_blank">
-                            <div id="portfolioImageSix" class=".z-depth-2"></div>
-                            <p class="description">Word Guess Game</p>
-                        </a>
-                        <div class="description">
-                            <a href="https://github.com/CurtisLane/Word-Guess-Game" class="link" target="_blank">Github</a>
-                        </div>                    
-                    </div>
-                </div>
             </div>
-            <div class="seeMoreLinks">
-                <a href="https://github.com/CurtisLane/Constructor-Word-Guess-Game" target="_blank" class="white-text link">Constructor Word Guess Game</a>
-            </div>
-            <div class="seeMoreLinks">
-                <a href="https://github.com/CurtisLane/LIRI-Bot" target="_blank" class="white-text link">Liri Bot</a>
-            </div>
-            <div class="seeMoreLinks">
-                <a href="https://github.com/CurtisLane/Bamazon-Store" target="_blank" class="white-text link">Bamazon Store</a>
-            </div>
+
+            
         `);
         $('#seeMoreButton').hide();
         $('#seeLessButton').show();
